@@ -287,3 +287,24 @@ input {
     background-color: blue;
 
 }
+.menu-ativo .barra-nav {
+    left: 0;
+  }
+
+  .menu-ativo:after {
+    content: "";
+    display: block;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    background: rgba(0,0,0,0.4);
+  }
+
+  .menu-principal li {
+    padding: 1em 0;
+    width: 100%;
+}
