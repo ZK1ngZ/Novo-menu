@@ -5,6 +5,11 @@
 }
 
 body{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #17EBCB;
 }
 
@@ -31,13 +36,12 @@ body{
 }
 
 
-
 .conteiner {
     width: 553px;
-    height: 760px;
+    
     background-color: #27284B;
-    margin: auto;
-    margin-top: 105px;
+    
+    
     border-radius: 15px;
 }
 
