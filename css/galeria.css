@@ -1,0 +1,277 @@
+/*font-family: 'Montserrat', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border-left: solid 60px #27284B;
+    border-right: solid 60px #27284B;
+    border-bottom: solid 60px #27284B;
+    /* height: 1080px; */
+}
+
+.barra-nav {
+    width: 991px;
+    height: 120px;
+    background-image: linear-gradient(to bottom, #27284B, #27284B, black);
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.eletricidade {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #17EBCB;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1280px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 55px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.box {
+    width: 162px;
+    height: 115px;
+    background: #27284B;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #27284B, black, #188676);
+    border-radius: 10px;
+}
+
+.produto {
+    text-align: center;
+}
+
+.produto p {
+    border: 2px solid;
+    text-align: center;
+    font-size: 13.5px;
+    width: 80px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fa-magnifying-glass {
+    font-size: 30px;
+    color: white;
+}
+
+input {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+    border: 1px solid;
+    height: 30px;
+    width: 200px;
+    max-width: 1200px;
+}
+
+.erro {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 12px;
+    margin-top: 100px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.clique {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+ul li {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    line-height: 1;
+    margin-top: 130px;
+    margin-left: 50px;
+    font-size: 20px;
+   
+}
+
+
+
+#nav-menu.visivel{
+    left: 0;
+}
+
+button{   
+    background-color: #27284B;
+    height: 30px;
+    width: 30px;
+    border: 0;
+}
+
+.fa-solid{
+    font-size: 30px;
+    color: #17EBCB; 
+}
+
+header{
+    background-color: #17EBCB;
+    display: flex;
+    
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .busca{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.barra-nav2{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    margin-top: -100px;
+    
+}
+.menu-principal{
+    display: flex;
+  cursor: pointer;
+margin-left: 400px;
+
+}
+.menu-principal :hover{
+    transform: scale(1.1);
+  
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+
+.c {
+	color:black ;
+}
+.s {
+	color:black ;
+}
+.h {
+	color: black;
+}
+.cc{
+    color: black;
+}
+.bi-bi-shield-fill-exclamation{
+    color: black;
+}
+@media screen and (max-width: 550px) {
+
+    body{
+        border-left: none;
+        border-right: none;
+        border-bottom:  solid 60px #27284B;
+        height: 1900;
+    }
+
+    .barra-nav{
+        width: 350px;
+        height: 120px;
+        margin-left: 40px;
+    }
+
+    .eletricidade{
+        font-size: 40px;
+    }
+
+    .box{
+        width: 90px;
+        margin-left: -30px;
+
+    }
+
+    .box img{
+        width: 70px;
+        height: 70px;
+    }
+
+    header .menu-mobile{
+        display: block;
+    }
+
+    #nav-menu{
+        width: 200px;
+        left: -100%;
+    }
+
+    #nav-menu.visivel{
+        left: -60px;
+    }
+
+    ul li {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    button{
+        margin-left: 10px;
+    }
+
+    input{
+        margin-left: -250px;
+    }
+
+    .produto p{
+        margin-left: -25px;
+    }
+    
+
+    .erro{
+        margin-top: 800px;
+        color: black;
+        margin-left: 10px;
+        font-size: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    .clique{
+        color: black;
+        font-size: 10px;
+        letter-spacing: -0.5;
+    }
+
+}
+
+
+

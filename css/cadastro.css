@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+.login {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 57px;
+
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+}
+
+body {
+    background-color: white;
+}
+
+.conteiner {
+    width: 553px;
+    height: 760px;
+    background-color: #27284B;
+    margin: auto;
+    margin-top: 105px;
+    border-radius: 15px;
+}
+
+.box-gmail {
+    display: flex;
+
+    padding-left: 22px;
+
+
+
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.box-senha {
+    display: flex;
+
+    padding-left: 22px;
+
+
+
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.btn-entrar {
+
+
+    width: 224px;
+    height: 43px;
+    background: #F5F5F5;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 29px;
+}
+
+.btn-entrar a {
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    bottom: 23.26%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.name {
+    height: 40px;
+    width: 75%;
+    left: 0px;
+    top: 24px;
+    padding: 1px;
+    margin-left: 11%;
+    margin-top: 2%;
+
+}
+
+form label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 24px;
+    /* identical to box height */
+    color: white;
+    margin-left: 37%;
+    margin-top: 8%;
+}
+
+.email {
+    height: 40px;
+    width: 75%;
+    left: 0px;
+    top: 24px;
+    padding: 1px;
+    margin-left: 11%;
+    margin-top: 2%;
+
+}
+
+input {
+    height: 70px;
+    border-radius: 50px;
+    border: solid 1px;
+    margin-top: 3%;
+}
+
+.senha {
+    height: 40px;
+    width: 75%;
+    left: 0px;
+    top: 24px;
+    padding: 1px;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+
+.senha2 {
+    height: 40px;
+    width: 75%;
+    left: 0px;
+    top: 24px;
+    padding: 1px;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+.oioi2 {
+    margin-left: 135px;
+}
+
+.telefone {
+    height: 40px;
+    width: 75%;
+    left: 0px;
+    top: 24px;
+    padding: 1px;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+.botaozin {
+    margin-left: 45%;
+    width: 15%;
+    height: 3%;
+    border-radius: 10%;
+}
+
+.privacidade {
+    margin-left: 200px;
+    margin-top: 3%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 275;
+    margin-top: 3px;
+    margin-left: 182px;
+}
+
+.privacidade a {
+    color: white;
+    font-weight: 275;
+}

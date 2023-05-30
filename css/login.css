@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: #17EBCB;
+}
+
+
+
+.text-login {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 57px;
+
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+
+
+.conteiner {
+    width: 553px;
+    height: 760px;
+    background-color: #27284B;
+    margin: auto;
+    margin-top: 105px;
+    border-radius: 15px;
+}
+
+.boxs {
+    /* Rectangle 1 */
+
+
+    box-sizing: border-box;
+
+
+    width: 400px;
+    height: 70px;
+    margin-top: 50px;
+    margin-left: 76px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.box-gmail {
+    display: flex;
+
+    padding-left: 22px;
+
+
+
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.box-senha {
+    display: flex;
+
+    padding-left: 22px;
+
+
+
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.btn-entrar {
+
+
+    width: 224px;
+    height: 43px;
+    background: #F5F5F5;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 29px;
+}
+
+.btn-entrar a {
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    bottom: 23.26%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #000000;
+    text-decoration: none;
+}
+
+.text-box-google {
+    width: 370px;
+    height: 69px;
+    display: flex;
+
+
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+
+    margin-right: -40px;
+    align-items: center;
+
+    margin-left: 85px;
+}
+
+.box-google img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    position: relative;
+
+
+}
+
+.linha {
+
+    width: 69px;
+    height: 0px;
+    border: 1px solid #000000;
+    margin-left: -8px;
+
+    transform: rotate(90deg);
+
+
+}
+
+.linha a {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.text-google {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    color: #000000;
+}
+
+.email {
+    height: 40px;
+    width: 75%;
+    left: 0px;
+    top: 24px;
+    padding: 1px;
+    margin-left: 11%;
+    margin-top: 2%;
+
+}
+
+form label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 24px;
+    /* identical to box height */
+    color: white;
+    margin-left: 37%;
+    margin-top: 0%;
+}
+
+.password {
+    height: 40px;
+    width: 75%;
+    left: 0px;
+    top: 24px;
+    padding: 1px;
+    margin-left: 11%;
+    margin-top: 2%;
+
+}
+
+input {
+    height: 70px;
+    border-radius: 50px;
+    border: solid 1px;
+}
+
+.esqueceu {
+    margin-left: 150px;
+    margin-top: 4%;
+    font-size: 200%;
+
+
+}
+
+.esqueceu a {
+    color: white;
+    font-weight: 275px;
+
+
+}
+
+.botn {
+    margin-left: 225px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.cp {
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    margin-left: 148px;
+    color: white;
+    font-weight: 275px;
+    font-size: 25px;
+}
+
+.cp a {
+    color: white;
+    font-weight: 275px;
+
+}
+
+.esqueceu-senha {
+    color: blue;
+    height: 30px;
+    width: 400px;
+}
+
+.esqueceu-btn {
+    margin-left: 210px;
+    margin-top: 30px;
+    color: white;
+    background-color: blue;
+
+}

@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+  }
+  body {
+    background-color: #fff;
+    width: 100%;
+    border: 58px solid #27284b;
+    /* height: 100%; */
+  }
+  
+  .topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    font-style: normal;
+    font-size: 58px;
+    font-style: border;
+    margin-top: 20px;
+  }
+  
+  .meio {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 22px;
+    width: 33%;
+    /* margin-top: -50px; */
+    transform: scale(1.2);
+  }
+  
+  .centro {
+    justify-content: center;
+    width: 33%;
+    height: 300px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 32px;
+    margin-top: 40px;
+  }
+  
+  .direita {
+    justify-content: center;
+    width: 33%;
+    height: 300px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 32px;
+    margin-top: 40px;
+  }
+  
+  .redes-sociais {
+    align-items: center;
+    font-size: 32px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  .rodape {
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 650px;
+    font-size: 25px;
+  }
+  
+  input {
+    gap: 22px;
+    height: 80px;
+    width: 300px;
+    border-radius: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 50vh;
+    margin-top: 60px;
+  }
+  
+  .div-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #divInput {
+    background-color: #3debb0;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 300px;
+    height: 30px;
+    margin-left: 770px;
+  }
+  #txtInput {
+    float: left;
+    background-color: #3debb0;
+    padding-left: 8px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 28px;
+    width: 290px;
+    border-radius: 15px;
+  }
+  #btn1 {
+    cursor: pointer;
+  }
+  
+  .msg-final {
+    display: none;
+    color: crimson;
+    margin-left: -1200px;
+    font-size: 30px;
+    margin-top: -25px;
+  }
+  
+  .msg-final.erro_auth {
+    display: block;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .topo {
+      font-size: 25px;
+    }
+    input {
+      width: 200px;
+      height: 80px;
+      margin-left: -170px;
+    }
+  
+    label {
+      margin-left: -170px;
+    }
+  
+    body {
+      border: 20px solid #27284b;
+      height: 1000px;
+    }
+  
+    .centro {
+      margin-top: 430px;
+      font-size: 15px;
+      margin-left: -120px;
+    }
+  
+    .direita {
+      margin-top: 430px;
+      font-size: 15px;
+      margin-left: -270px;
+    }
+  
+    .redes-sociais {
+      width: 200px;
+      height: 10px;
+      font-size: 10px;
+    }
+  
+    .div-bottom {
+      margin-top: 380px;
+      height: 5px;
+      font-size: 15px;
+    }
+  
+    .redes-sociais img {
+      width: 50px;
+      height: 30px;
+      margin-top: 50px;
+    }
+  
+    .fim {
+      margin-top: 40px;
+      font-size: 10px;
+    }
+  }
+  .fundo-tema{
+    background-color: #27284b;
+    height: 160px;
+  }
