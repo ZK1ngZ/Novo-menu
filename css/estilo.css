@@ -258,3 +258,8 @@ cursor: pointer;
 i{
 	cursor: pointer;
 }
+
+.carousel-inner :hover{
+	transform: scale(0.9);
+	border-radius: 28px;
+}
