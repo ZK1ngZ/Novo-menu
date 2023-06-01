@@ -1,26 +1,23 @@
 
-// let login = document.querySelector("#login");
-// let senha = document.querySelector("#senha");
-// let btn = document.querySelector(".botn");
-// let restrita = document.querySelector("#btn-restrita")
-// btn.addEventListener("click", () => {
-//     if (login.value =="login"&& senha.value == "senha")
-//     {
-//         window.open("restrita.html");
-//     }
+let login = document.querySelector("#login");
+let senha = document.querySelector("#senha");
+let btn = document.querySelector(".botn");
+let restrita = document.querySelector("#btn-restrita")
+btn.addEventListener("click", () => {
+    if (login.value =="login"&& senha.value == "senha")
+    {
+        window.open("restrita.html");
+    }
 
-//     else{
-//         print(bah)
-//     }
-// });
+    else{
+        print(bah)
+    }
+});
 
 
-// restrita.addEventListener("click", () => {
-//     if (restrita.value="bruno")
-// {
-//     window.open("");
-// }
-// });
+
+
+
 
 let btnEsqueceu = document.querySelector(".esqueceu-senha")
 
@@ -44,5 +41,8 @@ if (alertTrigger) {
     btnEsqueceu.style.display = "none"
   })
 }
+
+
+
 
 
