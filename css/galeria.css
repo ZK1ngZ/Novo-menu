@@ -10,6 +10,7 @@ body {
     border-right: solid 60px #27284B;
     border-bottom: solid 60px #27284B;
     /* height: 1080px; */
+    background-color: #17EBCB;
 }
 
 .barra-nav {
@@ -45,7 +46,7 @@ body {
     gap: 55px;
     padding-left: 100px;
     padding-right: 100px;
-    
+    background-color: #17EBCB;
 }
 
 .box {
