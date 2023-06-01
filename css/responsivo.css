@@ -27,8 +27,9 @@
       background: #17EBCB;
         padding: 1em;
         margin: 0;
-    
-        height: 100%;
+    border-radius: 29px;
+    border-color: #27284B;
+        height: 60%;
         width: 90%;
         max-width: 320px;
     
@@ -36,7 +37,6 @@
         z-index: 1;
         top: 0;
         left: -90%;
-    
         transition: left 0.3s ease-out;
     }
     
@@ -114,7 +114,6 @@
       left: 0;
       bottom: 0;
       right: 0;
-  
       background: rgba(0,0,0,0.4);
     }
   
