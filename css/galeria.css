@@ -119,13 +119,12 @@ a {
 
 
 ul li {
-    font-family: 'Montserrat', sans-serif;
     list-style: none;
-    line-height: 1;
+	font-family: 'Montserrat', sans-serif;
     margin-top: 130px;
     margin-left: 50px;
     font-size: 20px;
-   
+   color: black;
 }
 
 
