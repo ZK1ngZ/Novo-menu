@@ -112,10 +112,13 @@ header {
 .jbl-fone{
 	height: 180px;
 	background-color:white ;;
-	border-radius: 20px;
+	
 	cursor: pointer;
 	position: relative;
-
+	border: 1px solid white;
+    border-radius: 15px;
+    animation: color 1s infinite;
+    margin: 15px;
  }
 
 .secao{
@@ -131,38 +134,54 @@ font-family: 'Montserrat', sans-serif;;
  }
 
 .caixa-som{
-	border-radius: 20px;
+	
 	height: 180px;
 	position: relative;
 	cursor: pointer;
+	border: 1px solid white;
+    border-radius: 15px;
+    animation: color 1s infinite;
+    margin: 15px;
 }
 .iphone2{
 	height: 180px;
-	border-radius: 28px;
+	border: 1px solid white;
+    border-radius: 15px;
+    animation: color 1s infinite;
+    margin: 15px;
 	position: relative;
 	cursor: pointer;
 }
 .smart2{
 	height: 180px;
-	border-radius: 28px;
 	position: relative;
 	cursor: pointer;
+	border: 1px solid white;
+    border-radius: 15px;
+    animation: color 1s infinite;
+    margin: 15px;
 }
 
 .maquina-lavar{
 	height: 180px;
-	border-radius: 28px;
+	
 	position: relative;
 	cursor: pointer;
+	border: 1px solid white;
+    border-radius: 15px;
+    animation: color 1s infinite;
+    margin: 15px;
 }
 
 .micro-ondas{
 	height: 180px;
 	width: 200px;
-	border-radius: 28px;
 	position: relative;
 	cursor: pointer;
-	
+	border: 1px solid white;
+    border-radius: 15px;
+    animation: color 1s infinite;
+    margin: 15px;
 }
 
 .secao1 :hover{
@@ -170,6 +189,7 @@ font-family: 'Montserrat', sans-serif;;
 transition: 0.6s;
 
 }
+
 
 .secao .carousel-inner{
 	transform: scale(0.5);
