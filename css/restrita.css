@@ -98,7 +98,49 @@ header {
 		.menu-principal a:hover {
 			opacity: 0.8;
 		}
-#myTable{
-	color: black;
-	background-color:  #17EBCB;
-}
+		#linkBackHome{
+			display: none;
+		}
+		
+		.restrito-mensagens{
+			display: none;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.restrito-mensagem{
+			width: 50%;
+			background-color: rgb(224, 237, 237);
+			margin-top: 10px;
+			border-radius: 10px;
+			border-style: solid;
+			border-color: rgb(232, 200, 158);
+			border-width: 2px;
+		}
+		
+		.restrito-mensagem-titulo{
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			background-color: rgb(224, 237, 237);
+			background-color: aliceblue;
+			padding: 5px;
+		}
+		
+		.restrito-mensagem-titulo p{
+			line-height: 0.3;
+		}
+		
+		.restrito-mensagem-conteudo{
+			padding: 5px;
+		}
+		
+		@media only screen and (max-width: 600px){
+			#myTable{
+				display: none;
+			}
+			.restrito-mensagens{
+				display: flex;
+			}
+		}
+		
