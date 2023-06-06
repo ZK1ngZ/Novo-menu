@@ -28,6 +28,7 @@ header {
 }
 .menu-principal{
 	color: black;
+	
 }
 /* busca */
 .busca {
@@ -81,17 +82,15 @@ header {
 }
 
 .menu-principal {
-	font-weight: bold;
-	list-style-type: none;
+
+	
 	}
 	.menu-principal a {
 		display: block;
 		padding-right: 1em;
 		margin-right: 1em;
+		font-family: 'Montserrat', sans-serif;
 
-		line-height: 1;
-		text-decoration: none;
-		text-transform: lowercase;
 	}
 		.menu-principal a:hover {
 			opacity: 0.8;
@@ -215,8 +214,8 @@ position: absolute;
    }
    @keyframes color2{
 	0%{
-        border: 1px solid red;
-        box-shadow: 0px 0px 20px red;
+		border: 1px solid  rgb(30,255 ,0 );
+        box-shadow: 0px 0px 20px rgb(30,255 ,0 );
     }
     25%{
         border: 1px solid  rgb(255,238,0);
