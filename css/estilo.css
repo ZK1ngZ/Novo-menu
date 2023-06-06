@@ -175,7 +175,7 @@ font-family: 'Montserrat', sans-serif;;
 
 .micro-ondas{
 	height: 180px;
-	width: 200px;
+
 	position: relative;
 	cursor: pointer;
 	border: 1px solid white;
@@ -236,7 +236,9 @@ transform: scale(1.1);
 }
 
 
-
+.btn-icon{
+	
+}
 
 .btn-icon :hover{
 	transform: scale(1.1);
