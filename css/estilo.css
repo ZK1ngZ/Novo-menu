@@ -253,25 +253,27 @@ cursor: pointer;
 @keyframes color{
     0%{
         border: 1px solid red;
-        box-shadow: 5px 5px 5px red;
+        box-shadow: 9px 9px 9px red;
     }
     25%{
         border: 1px solid  rgb(255,238,0);
-        box-shadow: 5px 7px 5px  rgb(255,238,0);
+        box-shadow: 9px 11px 9px  rgb(255,238,0);
     }
     50%{
         border: 1px solid  rgb(30,255 ,0 );
-        box-shadow: 5px 5px 5px rgb(30,255 ,0 );
+        box-shadow: 9px 9px 9px rgb(30,255 ,0 );
     }
     75%{
         border: 1px solid  rgb(0,17 ,255 );
-        box-shadow: 5px 7px 5px rgb(0,17 ,255 );
+        box-shadow: 9px 11px 9px rgb(0,17 ,255 );
     }
     100%{
         border: 1px solid  rgb(225,0,255);
-        box-shadow: 5px 5px 5px rgb(225,0,255)
+        box-shadow: 9px 9px 9px rgb(225,0,255)
     }
 }
+
+
 
 .l{
 	color: black;
