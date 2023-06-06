@@ -312,3 +312,10 @@ position: absolute;
 		
 	}
 }
+@media  (max-width:1200px){
+	.fone{
+		height: 90%;
+		width: 80%;
+		margin-left: 8%;
+	}
+}
