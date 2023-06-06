@@ -265,4 +265,20 @@ position: absolute;
 	margin-left: -600px;
    }
 
+
    }
+@media  (max-width:600px){
+	.fone{
+		margin-left: 460px;
+	}
+	.txt-jbl{
+		font-size: 16px;
+		width: 350px;
+	}
+	p{
+		margin-left: 0px;
+	}
+	.btn-compra{
+		margin-left: -900px;
+	}
+}
