@@ -291,7 +291,9 @@ position: absolute;
 	margin-left: -600px;
    }
 
-
+  #qtdn{
+	margin-left: 90%;
+  }
    }
 @media  (max-width:600px){
 	.fone{
@@ -306,5 +308,8 @@ position: absolute;
 	}
 	.btn-compra{
 		margin-left: -900px;
+	}
+	#qtd{
+		
 	}
 }
