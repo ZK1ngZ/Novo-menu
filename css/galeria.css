@@ -200,7 +200,16 @@ margin-left: 400px;
 
 
 @media (max-width: 600px){
-    .barra-nav {
+    
+    body{
+        border-left: solid 60px #27284B;
+    border-right: solid 60px #27284B;
+    border-bottom: solid 60px #27284B;
+    width: 1300px;
+    height: 1200px;
+    background-color: #17EBCB;
+    }
+    .barra-nav2 {
       
         padding: 1em;
         margin: 0;

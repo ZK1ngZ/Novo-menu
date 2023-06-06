@@ -141,6 +141,7 @@ input {
 @media screen and (max-width: 700px) {
   .topo {
     font-size: 25px;
+    margin-top: -20px;
   }
   input {
     height: 39px;
