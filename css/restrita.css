@@ -134,6 +134,11 @@ header {
 		.restrito-mensagem-conteudo{
 			padding: 5px;
 		}
+
+		#myTable{
+			background-color: #17EBCB ;
+			color: black;
+		}
 		
 		@media only screen and (max-width: 600px){
 			#myTable{

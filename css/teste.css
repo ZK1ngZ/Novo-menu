@@ -147,13 +147,16 @@ input {
     height: 39px;
     width: 100%;
     margin-left: -170px;
+    
   }
 
   label {
     margin-left: -170px;
     
   }
-
+.esquerda{
+  margin-top: 60px;
+}
   body {
     border: 20px solid #27284b;
     height: 1000px;
@@ -175,6 +178,7 @@ input {
     width: 200px;
     height: 10px;
     font-size: 10px;
+    margin-top: -900px;
   }
 
   .div-bottom {
@@ -192,5 +196,11 @@ input {
   .fim {
     margin-top: 40px;
     font-size: 10px;
+  }
+  .div-bottom h3{
+    display: none;
+  }
+  .topo h2{
+    margin-top: 50px;
   }
 }
