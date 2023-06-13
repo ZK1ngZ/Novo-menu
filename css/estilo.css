@@ -32,7 +32,7 @@ header {
 
 /* busca */
 .busca {
-	overflow: hidden; /* clearfix */
+	overflow: hidden; 
 }
 	.busca input {
 		border: 1px solid #CCC;
