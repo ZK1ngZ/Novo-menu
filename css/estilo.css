@@ -198,7 +198,7 @@ font-family: 'Montserrat', sans-serif;;
     margin: 15px;
 }
 
-.secao1 :hover{
+.secao1 img:hover{
 	transform: scale(1.1);
 transition: 0.6s;
 
@@ -250,9 +250,8 @@ transform: scale(1.1);
 }
 
 
-.btn-icon{
-	
-}
+
+
 
 .btn-icon :hover{
 	transform: scale(1.1);
@@ -284,7 +283,7 @@ cursor: pointer;
     border-radius: 15px;
     animation: color 4s infinite;
     margin: 15px;
-	
+    
    
 }
 @keyframes color{
@@ -327,7 +326,8 @@ i{
 	cursor: pointer;
 }
 
-.carousel-inner :hover{
+.carousel-inner, .carousel-item:hover{
 	transform: scale(1.1);
 	border-radius: 28px;
+	transition: 3s;
 }
