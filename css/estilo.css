@@ -289,24 +289,24 @@ cursor: pointer;
 @keyframes color{
     0%{
         border: 1px solid red;
-        box-shadow: 0px 0px 20px red;
+        box-shadow: 0px 0px 30px red;
 		
     }
     25%{
         border: 1px solid  rgb(255,238,0);
-        box-shadow: 0px 0px 20px  rgb(255,238,0);
+        box-shadow: 0px 0px 30px  rgb(255,238,0);
     }
     50%{
         border: 1px solid  rgb(30,255 ,0 );
-        box-shadow: 0px 0px 20px rgb(30,255 ,0 );
+        box-shadow: 0px 0px 30px rgb(30,255 ,0 );
     }
     75%{
         border: 1px solid  rgb(0,17 ,255 );
-        box-shadow: 0px 0px 20px rgb(0,17 ,255 );
+        box-shadow: 0px 0px 30px rgb(0,17 ,255 );
     }
     100%{
         border: 1px solid  rgb(225,0,255);
-        box-shadow: 0px 0px 20px rgb(225,0,255)
+        box-shadow: 0px 0px 30px rgb(225,0,255)
     }
 }
 
@@ -331,3 +331,7 @@ i{
 	border-radius: 28px;
 	transition: 3s;
 }
+.carousel-inner::after{
+	filter: blur(50px);
+}
+
