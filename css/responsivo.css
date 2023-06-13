@@ -21,6 +21,8 @@
     width: 40%;
    }
  
+
+   
   
   @media (max-width: 600px){
     .barra-nav {
@@ -46,22 +48,7 @@
    }
    
  
-  .fone{
-    padding: 1em;
-    margin: 0;
-    height: 100%;
-    width: 70%;
-    max-width: 400px;
-    position: fixed;
-    z-index: 1;
-    left: -90%;
-    transform: left 0.3s ease-out;
-    
-  }
-.txt-jbl{
- font-size: 4px;
- width: 10px;
-}
+
 
   .fone-jbl{
     height: 200px;
