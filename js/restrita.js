@@ -10,7 +10,7 @@ btn.addEventListener("click", () => {
     }
 
     else{
-        print(bah)
+        window.alert("Usuario incorreto")
     }
 });
 
