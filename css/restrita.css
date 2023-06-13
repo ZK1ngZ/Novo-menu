@@ -142,7 +142,8 @@ header {
 		
 		@media only screen and (max-width: 600px){
 			#myTable{
-				display: none;
+				height: 20%;
+				width: 30%;
 			}
 			.restrito-mensagens{
 				display: flex;
